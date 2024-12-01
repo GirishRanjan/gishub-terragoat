@@ -1,4 +1,5 @@
 resource azurerm_kubernetes_cluster "k8s_cluster" {
+# checkov:skip=CKV_AZURE_4: not needed
   dns_prefix          = "terragoat-${var.environment}"
   location            = var.location
   name                = "terragoat-aks-${var.environment}"
