@@ -1,4 +1,5 @@
 resource azurerm_kubernetes_cluster "k8s_cluster" {
+# Test case for check skip via comment
 # checkov:skip=CKV_AZURE_4: not needed
 # checkov:skip=CKV_AZURE_170: not required
 # checkov:skep=CKV_AZURE_115: not necessary
