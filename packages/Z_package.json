@@ -43,5 +43,8 @@
     "url": "^0.11.0",
     "uuid": "^8.3.2",
     "xml": "^1.0.1"
+    "browserslist": "4.1.0",
+    "invariant": "2.2.2",
+    "js-levenshtein": "1.1.3",
   }
 }
